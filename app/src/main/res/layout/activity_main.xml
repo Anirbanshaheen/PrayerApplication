@@ -21,7 +21,7 @@
         android:id="@+id/fazorTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show fazor time"
+        android:text="fazor time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/fazorNameTV"
@@ -41,7 +41,7 @@
         android:id="@+id/juhorTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show Juhor time"
+        android:text="Juhor time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/juhorNameTV"
@@ -61,7 +61,7 @@
         android:id="@+id/asorTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show Asor time"
+        android:text="Asor time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/asorNameTV"
@@ -81,7 +81,7 @@
         android:id="@+id/magribTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show Magrib time"
+        android:text="Magrib time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/magribNameTV"
@@ -101,7 +101,7 @@
         android:id="@+id/eshaTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show Esha time"
+        android:text="Esha time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/eshaNameTV"
@@ -121,20 +121,11 @@
         android:id="@+id/sunriseTimeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="here show Esha time"
+        android:text="Esha time"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sunriseNameTV"
         app:layout_constraintTop_toBottomOf="@id/eshaTimeTV" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sunriseTimeTV" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
